@@ -1,0 +1,29 @@
+#container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box{
+  background-color: #b7e36f;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+p{
+  padding-top: 40px;
+}
+.font1{
+  font-family: 'Rubik Pixels', cursive;
+}
+.font2{
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+.font3{
+  font-family: 'Dancing Script', cursive;
+}
+.font4{
+  font-family: 'Fjalla One', sans-serif;
+}
+.font5{
+  font-family: 'Indie Flower', cursive;
+}
