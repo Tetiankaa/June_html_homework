@@ -1,11 +1,5 @@
 body{
   margin: 0;
-
-
-}
-p{
-  margin: 0;
-
 }
 header{
   width: 100vw;
@@ -36,8 +30,6 @@ footer {
 }
 aside{
   display: flex;
-  width: 100vw;
-  height: 35vh;
 }
 section{
   width: 60vw;
@@ -49,7 +41,7 @@ section{
   align-items: center;
 }
 article{
-  width: 60vw;
+  width: 40vw;
   height: 35vh;
   background-color:#716B6B ;
 

@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  background-color: #66b2e4;
+  font-family: "Roboto Light";
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#content {
+  width: 60vh;
+  height: 40vh;
+  background-color: white;
+  border-radius: 5px;
+}
+span{
+  color: #807d7d;
+}
+hr{
+  border: 1px solid #cbcbcb;
+}
+p{
+  padding-left: 10px;
+}
+#sign_up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sign_up input{
+  width: 310px;
+  height: 27px;
+  margin-top: 8px;
+  border-radius:3px;
+  border: 1px solid #cbcbcb ;
+}
+#sign_up input::placeholder{
+  padding: 5px;
+  color: #807d7d;
+}
+#submit{
+  width: 150px;
+  height: 27px;
+  font-weight: bold;
+  border: 1px solid orange;
+  border-radius: 3px;
+  margin: 8px 20px 0 180px ;
+}

@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+header{
+  background: #927D7D;
+}
+footer{
+  background: #BDBDBD;
+}
+.size{
+  width: 100vw;
+  height: 15vh;
+}
+main{
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+}
+#left{
+  background: #817C7C;
+}
+#right{
+  background: #B7AEAE;
+}
+.size_left_right{
+  width: 20vw;
+  height: 70vh;
+}
+#center{
+  width: 60vw;
+  height: 70vh;
+}
+#c_header{
+  background: #CCBEBE;
+}
+#c_footer{
+  background: #CF6262;
+}
+.c-size{
+  width: 60vw;
+  height: 10vh;
+}
+#middle{
+  display: flex;
+}
+.dimensions_middle{
+  width: 10vw;
+  height: 50vh;
+}
+.color_mid_left{
+  background: #473434;
+}
+.color_mid_right{
+  background: #925A5A;
+}
+.center_middle{
+  width: 40vw;
+  height: 50vh;
+  background: #A74848;
+}

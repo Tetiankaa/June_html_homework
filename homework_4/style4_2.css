@@ -1,0 +1,60 @@
+body{
+  background-color: darkcyan;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+main{
+  background-color: white;
+  width: 500px;
+  height: 360px;
+  border-radius: 10px;
+}
+.login_text{
+  height: 10vh;
+  background-color: #e9f3f3;
+  font-size: 1.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#login, #password {
+  width: 70%;
+  height: 30px;
+  border: 2px solid #9c9c9c;
+  margin-top: 15px;
+}
+#submit  {
+  background-color: #e9f3f3;
+  width: 85px;
+  height: 25px;
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  font-size: 0.7em;
+}
+aside{
+  width: 70%;
+  height: 30px;
+  margin-top: 23px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+aside label{
+  font-size: 0.9em;
+}

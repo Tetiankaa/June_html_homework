@@ -1,9 +1,6 @@
 body{
   margin: 0;
 }
-p{
-  margin: 0;
-}
 nav{
   width: 100vw;
   height: 10vh;
@@ -24,7 +21,8 @@ footer{
 }
 main{
   width: 100vw;
-  height: 80vh;display: flex;
+  height: 80vh;
+  display: flex;
 }
 section{
   height: 80vh;

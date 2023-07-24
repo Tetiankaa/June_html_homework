@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  font-size: 2em;
+}
+header{
+  width: 100vw;
+  height: 26vh;
+  background: #8D8484;
+}
+footer{
+  width: 100vw;
+  height: 26vh;
+  background: #BDBDBD;
+}
+#centerContainer{
+  width: 100vw;
+  height: 48vh;
+  display: flex;
+  color: white;
+}
+#left section{
+  width: 70vw;
+  height: 16vh;
+}
+#content-1{
+  background: #776969;
+}
+#content-2{
+  background: #643030;
+}
+#content-3{
+  background: #441818;
+}
+#right section{
+  width: 30vw;
+  height: 24vh;
+}
+#spam-1{
+  background: #937575;
+}
+#spam-2{
+  background: #644C4C;
+}
+#left,#right{
+  display: flex;
+  flex-direction: column;
+}
+.centered_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

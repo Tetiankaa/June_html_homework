@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+header{
+  width: 100vw;
+  height: 20vh;
+  background: #D9D9D9;
+}
+main{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+}
+.size{
+  height: 80vh;
+  width: 25vw;
+}
+.first{
+  background: #909090;
+}
+.second{
+  background: #645F5F;
+}
+.third{
+  height: 80vh;
+  width: 22vw;
+  background: #A59D9D;
+}
+.fourth{
+  height: 80vh;
+  width: 18vw;
+  background: #878585;
+}
+.fifth{
+  height: 80vh;
+  width: 10vw;
+  background: #4E4444;
+}

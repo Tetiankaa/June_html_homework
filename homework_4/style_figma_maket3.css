@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+}
+header{
+  width: 100vw;
+  height: 20vh;
+  background: #9B6F6F;
+}
+footer{
+  width: 100vw;
+  height: 20vh;
+  background: #524B4B;
+}
+main{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+}
+#threeBlocks{
+  display: flex;
+  flex-direction: column;
+}
+.dimensions{
+  width: 35vw;
+  height: 60vh;
+}
+.background1{
+  background: #D9D9D9;
+}
+.background2{
+  background: #AA9898;
+}
+.background3{
+  background: #C5BBBB;
+}
+#twoBlocks{
+  display: flex;
+}
+.leftBlock{
+  width: 35vw;
+  height: 60vh;
+  background: #8A8484;
+}
+.rightBlock{
+  width: 30vw;
+  height: 60vh;
+  background: #C0B3B3;
+}
