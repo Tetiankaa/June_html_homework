@@ -1,0 +1,19 @@
+@media screen and (max-width: 414px) {
+  main{
+    flex-direction: column;
+  }
+  .block_BCD, .block_EFG{
+    width: 100vw;
+    height: 20vh;
+  }
+  .block_BCD div, .block_EFG div{
+    width: 33.3vw;
+    height: 20vh;
+  }
+  .block_H{
+    width: 100vw;
+  }
+}
+main{
+  row-gap: 10px;
+}

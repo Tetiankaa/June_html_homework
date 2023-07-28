@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+}
+main{
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.block_A{
+  width: 100vw;
+  height: 25vh;
+  background-color: #ec7474;
+
+}
+.twoBlocks{
+  display: flex;
+  width: 100vw;
+  height: 75vh;
+  column-gap: 10px;
+
+}
+.block_B{
+  width: 75vw;
+  height: 75vh;
+  background-color: #ecb862;
+  border: 1px solid;
+  row-gap:  10px;
+}
+.block_C{
+  width: 25vw;
+  height: 75vh;
+  background-color: #8d85e5;
+  border: 1px solid;
+}
+.text_align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}

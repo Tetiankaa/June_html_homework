@@ -1,0 +1,25 @@
+@media screen and (max-width: 414px){
+  header{
+    height: 20vh;
+  }
+  .mainBlock{
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .block_B{
+    width: 100vw;
+    height: 60vh;
+  }
+  .blocks{
+    width: 100vw;
+    height: 20vh;
+  }
+  .blocks div{
+    width: 33.3vw;
+    height: 20vh;
+  }
+  footer{
+    width: 100vw;
+    height: 20vh;
+  }
+}

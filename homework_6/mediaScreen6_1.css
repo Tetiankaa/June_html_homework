@@ -1,0 +1,15 @@
+@media screen and (max-width: 414px){
+.twoBlocks{
+    flex-direction: column;
+    width: 100vw;
+  row-gap: 10px;
+}
+  .block_B{
+    height: 50vh;
+    width: 100vw;
+  }
+  .block_C{
+    height: 25vh;
+    width: 100vw;
+  }
+}
